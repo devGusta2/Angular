@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ComponenteInterpolacaoComponent } from './components/componente-interpolacao/componente-interpolacao.component';
-
+import { InterComponent } from './components/inter/inter.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ComponenteInterpolacaoComponent],
+  imports: [RouterOutlet, InterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
