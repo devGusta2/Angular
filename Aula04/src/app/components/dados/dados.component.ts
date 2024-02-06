@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-dados',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './dados.component.css'
 })
 export class DadosComponent {
-
+  @Input() name:String = "";//iniciado vazio
+  @Input()userData!:{email:String, role:String}// nao está iniciado no momento mas vai ser inicializado
+  
 }
