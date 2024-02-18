@@ -1,4 +1,7 @@
-<h1>O número é:</h1>
-<app-change-number (changeNumber)="onChangeNumber">
+<h1>O número é:{{myNumber}}</h1>
+<app-change-number (changeNumber)="onChangeNumber()" (console)="msngConsole()">
 
 </app-change-number>
+
+
+

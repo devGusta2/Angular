@@ -9,8 +9,13 @@ import { ChangeNumberComponent } from '../change-number/change-number.component'
  
 })
 export class EmmiterComponent {
+  myNumber:number=0;
+
   onChangeNumber(){
-    console.log("Funfou")
+    this.myNumber=Math.floor(Math.random()*10);
+  }
+  msngConsole(){
+    console.log("Deu certo");
   }
   
 }

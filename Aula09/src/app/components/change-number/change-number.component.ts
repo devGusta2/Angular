@@ -8,9 +8,14 @@ import { Component, Output, EventEmitter } from '@angular/core';
   styleUrl: './change-number.component.css'
 })
 export class ChangeNumberComponent {
+  @Output() console: EventEmitter<any>= new EventEmitter();
+
+
   @Output() changeNumber: EventEmitter<any>= new EventEmitter();
+
   handleClick(){
     this.changeNumber.emit();
+    this.console.emit();
   }
 }
 
