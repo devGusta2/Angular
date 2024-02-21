@@ -9,7 +9,7 @@ import { Animal } from '../../Animal';
 })
 export class InterfaceComponent {
   animalDetails='';
-  showAge(Animal:Animal){
+  showAge(animal:Animal){
     this.animalDetails="O pet ${animal.name} tem ${animal.age} anos!"
   }
   animals:Animal[]=[
