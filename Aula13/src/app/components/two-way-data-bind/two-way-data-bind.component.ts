@@ -8,6 +8,6 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './two-way-data-bind.component.css'
 })
 export class TwoWayDataBindComponent {
-  name:string="oi";
+  name:string="";
 
 }

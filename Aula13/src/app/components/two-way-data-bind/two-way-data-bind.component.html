@@ -1,5 +1,12 @@
 <p>Twowaydaabind!</p>
 <form>
     
-    <input type="text" [(ngModel)]="name" placeholder="Digite seu nome">
+    <input type="text" [(ngModel)]="name" 
+    placeholder="Digite seu nome"
+    
+    [ngModelOptions]="{standalone:true}"
+    >
+
+
+    <p>O nome é: {{name}}</p>
 </form>
