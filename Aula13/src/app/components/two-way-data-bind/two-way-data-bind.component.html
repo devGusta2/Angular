@@ -10,3 +10,32 @@
 
     <p>O nome é: {{name}}</p>
 </form>
+
+
+
+
+
+<input type="text" [(ngModel)]="idade" [ngModelOptions]="{standalone: true}">
+
+
+
+<p>Sua idade é {{idade}}</p>
+
+
+
+<!-- Para faze o two way data bind é necessário
+importar no ts: FormsModule
+import {FormsModule} from 'angular/forms';
+
+(em caso de standalone)
+
+<input [(ngModel)]="name" [ngModelOptions]="{standalone: true}">
+-->
+
+
+
+
+
+
+
+

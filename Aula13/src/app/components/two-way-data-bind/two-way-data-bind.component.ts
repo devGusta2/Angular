@@ -9,5 +9,5 @@ import { FormsModule } from '@angular/forms';
 })
 export class TwoWayDataBindComponent {
   name:string="";
-
+  idade:number=0;
 }
