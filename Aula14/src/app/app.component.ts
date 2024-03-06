@@ -18,5 +18,7 @@ export class AppComponent {
 
 
   constructor(private listService: ListService){}
+  removeAnimal(animal:Animal){
 
+  }
 }
