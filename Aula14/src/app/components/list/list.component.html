@@ -1,5 +1,6 @@
 <ul>
     @for(animal of animals; track animal){
         <li>{{animal.name}}</li>
+        <button (click)="removerAnimal()">Deletar</button>
     }
 </ul>
