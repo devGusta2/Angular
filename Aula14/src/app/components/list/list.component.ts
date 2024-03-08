@@ -8,5 +8,8 @@ import { ListService } from '../../servicos/list.service';
   styleUrl: './list.component.css'
 })
 export class ListComponent {
+    //(nome para diferenciar da classe) (tipo de dado  )
+    constructor(private listService: ListService){
 
+    }
 }
