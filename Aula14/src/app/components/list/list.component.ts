@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { ListService } from '../../servicos/list.service';
 @Component({
   selector: 'app-list',
   standalone: true,
