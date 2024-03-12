@@ -8,7 +8,7 @@ export class ListService {
   constructor() { }
 
   remove(animais: Animal[], animal:Animal){
-    console.log("Ativando Service");
+    return animais.filter((a)=>animal.name !== a.name);
     
   }
 }
