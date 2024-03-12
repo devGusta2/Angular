@@ -21,6 +21,6 @@ export class ListComponent {
     }
 
     removeAnimal(animal:Animal){
-      this.listService.remove(this.animais, animal);
+      this.animais=this.listService.remove(this.animais, animal);
     }
 }
