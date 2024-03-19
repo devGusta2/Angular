@@ -1,0 +1,8 @@
+{
+    "animals":[
+        {"id":1,"name":"Mel","type":"Dog","idade":5},
+        {"id":2,"name":"Trovao","type":"Dog","idade":8},
+        {"id":3,"name":"Caramelo","type":"Dog","idade":2},
+        {"id":4,"name":"Pitó","type":"Dog","idade":6}
+    ]
+}
